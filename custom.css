@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+body {
+    font-family: roboto condensed,sans-serif;
+        /* ТУТ МЕНЯЕТСЯ ОБОИ СЗАДИ*/
+    background: url(https://i.gifer.com/fzUl.gif);
+    background-color: #212529;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Jost', sans-serif;
+}
+
+input#avatar.form-control.my-2 {
+width: 351px;
+}
+
+a.nav-link{
+border-radius: 10px;
+}
+
+.form-control {
+border-radius: 10px;
+}
+.avatar .m-auto {margin-top: 50px;}
+.Profile .avatar {width: 351px;
+    height: 351px;
+}
+.btn-purple {width: 351px;}
+
+h1 {color: white;}
+label {color:white;}
+.nav-tabs {
+    background-color: white;
+    border-radius: 15px;
+}
+h4 {color: white;
+     margin-top: 100px;
+}
+
+.postItem h3  {
+    color: white;
+    margin-bottom: -1.3rem;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.postDesc {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.form-control .my-2 {
+ width: 50px;
+}
+.page-item:not(:first-child) .page-link {
+    margin-left: -1px;
+    background-color: white;
+}
+
+a.page-link {
+border: 1px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+.fa-grin-stars{
+    display: none;
+}
+.postItem {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: white
+}
+
+label.star {
+color: white
+}
+
+.dropdown-item {
+border-radius: 10px;
+color: #ffffff;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    background: #151618;
+    text-align: center;
+    min-width: 152.94px;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    right: 0;
+    margin-top: 5px;
+padding: 0px;
+}
+.postItem {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: white;
+    background-color: #8383835c;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-wrap: wrap;
+}
+.postItem>a {
+    color: #00adff;
+    padding: 5px;
+    text-decoration: none;
+}
+.postItem>span:nth-child(2n+2) {
+    color: #00adff;
+}
+hr:not([size]) {
+    height: 0px;
+}
+.postItem>span:nth-child(2n+1) {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+
+.comment-text {
+    margin: 10px 0;
+    background: #ffffffa3;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+}
+
+.user-group {
+    border: 1px #cdcece;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+    background: gray;
+    border-radius: 10px;
+}
+.view-watch {
+    background: #b3a3ef;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.details_poster>picture>img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.rating-age {
+    z-index: 10;
+    background: #ff0000ab;
+    padding: 15px;
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+}
+
+.views {
+    text-align: right;
+    font-size: 21px;
+    /* color: white; */
+    text-shadow: 0 -1px 3px #ffffff, 0 -1px 3px #ffffff, 0 1px 3px #ffffff, 0 1px 3px #ffffff, -1px 0 3px #ffffff, 1px 0 3px #ffffff, -1px 0 3px #ffffff, 1px 0 3px #ffffff, -1px -1px 3px #ffffff, 1px -1px 3px #ffffff, -1px 1px 3px #ffffff, 1px 1px 3px #ffffff, -1px -1px 3px #ffffff, 1px -1px 3px #ffffff, -1px 1px 3px #ffffff, 1px 1px 3px #ffffff;
+}
+.flashDiv>label {
+    /* box-shadow: #ffffff6e 1px -1px 6px 0px; */
+    padding: 5px;
+    font-size: 10px;
+    color: black;
+}
+.flashDiv>label {
+    /* box-shadow: #ffffff6e 1px -1px 6px 2px; */
+    padding: 5px;
+}
+.comment-title {
+    background: #4a148c;
+    padding: 20px 10px;
+    color: White;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+}
+.tox-tinymce {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    overflow: hidden;
+    position: relative;
+    visibility: inherit!important;
+}
+textarea#CSS.form-control {
+height: 480px;
+max-height: 480px;
+min-height: 350px;
+}
+.ProfileInfo label {
+    font-weight: 700;
+    margin: 10px 0;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin-left: 11px;
+    max-width:897px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text-center {
+    text-align: center!important;
+    width: 351px;
+}
+.command-teamcast {
+    color: #6f59af;
+    font-weight: 700;
+    font-size: 100px;
+    width: 1320px;
+    text-align: center;
+}
+.Voicers h4 {
+    background: #8354c1;
+    color: #fff;
+    padding: 15px 0;
+    width: 1320px;
+}
+.my-5 {
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+    width: 1320px;
+}
+.bbb_viewed_title {
+    margin-bottom: 14px;
+    color: #fff;
+    padding: 10px 41px;
+    text-align: center;
+    margin-left: 0px;
+}
+.postItem.team_nickname{
+background-color:white;
+}
+
+.postItem a{
+padding-left: 20px;
+padding-right: 10px;
+padding-bottom: 0px;
+padding-top: 0px;
+}
+
+.btn-social {
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.py-4 {
+    padding-top: 0rem!important;
+    padding-bottom: 1.5rem!important;
+    background-color: #ffffff5e;
+    border-radius: 20px;
+}
+.container.d-flex.justify-content-center{
+        margin-top:5px;
+        font-size: 20px;
+        margin-bottom: 6px;
+        background-color: #8383835c;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+    }
+    
+    .ratingBlock{
+        background-color: silver;
+        text-align: center;
+         border-radius: 10px;
+         padding-bottom: 10px;
+         margin-bottom: 10px;
+    }
+.h4, h4 {
+    font-size: 1.5rem;
+    backdrop-filter: blur(100px);
+    background-color: #6e6e6e2e;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-md-6 small {
+}
+.text-end {
+     text-align: center!important;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 500px;
+    margin-left: 51px;
+    background-color: #ffffff14;
+    border-radius: 20px;
+}
+.col-md-8.py-3 {
+    flex: 0 0 auto;
+    width: 1100px;
+}
+_blank4.py-{
+    padding-top: 33.125px!important;
+}
+
+::-webkit-scrollbar {
+    background-color: white!important;
+    width: 11px!important;
+    border-left: 0px!important;
+    border-radius: 0px!important;
+    border-right: 0px!important;
+    border-top: 0px!important;
+    border-bottom: 0px!important;
+    border-top-right-radius: 100px!important;
+    border-bottom-right-radius: 100px!important;
+}
+::-webkit-scrollbar-thumb {
+   background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%)!important;
+   box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5)!important;
+   width: 12px!important;
+   border-radius: 0px!important;
+   border-left: 0px!important;
+   border-right: 0px!important;
+   border-top: 0px!important;
+   border-bottom: 0px!important;
+   border-top-right-radius: 100px!important;
+   border-bottom-right-radius: 100px!important;
+}
+
+.form-control#CSS {
+background: #212529;
+color: white;
+padding-left: 15px;
+}
+
+textarea#CSS {
+resize: none;
+}
+
+textarea#CSS.form-control {
+  color: #d6d6d6!important;
+  border-left
+  font-size: 19px
+}
+
+.col-md-4 px-0 py-0.view-watch {
+color:black;
+}
+
+.ProfileInfo span {
+    font-weight: 700;
+    margin: 10px 0;
+    background-color: white;
+    color: black;
+    margin-left: 11px;
+    max-width:808px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Profile .profile-nickname {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    background: linear-gradient(344deg, rgba(255,255,0,1) 0%, rgba(0,255,192,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.ProfileInfo-block {
+background-color: white;
+}
+
+.view-menu-Block .col-md-4:nth-child(1) button {
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+}
+.view-menu-Block .col-md-4:nth-child(2) button{
+    border-radius: 0px!important;
+}
+.view-menu-Block .col-md-4:nth-child(3) button{
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+    border-bottom-left-radius: 0px!important;
+}
+
+.py-5 {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+.Profile .ProfileInfo {
+    font-size: 25px;
+    padding: 0px!important;
+    margin-left: 100px;
+    width: 896px;
+    background-color: #8383835c;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    margin-top: 70px;
+}
+
+.Profile .block :nth-child(5) {
+    border-bottom: 0!important;
+}
+
+.Profile .User {
+    background: #585858;
+    margin-left: -12px;
+    border-radius: 20px;
+    background: linear-gradient(341deg, rgb(52 52 52) 0%, rgb(104 255 218) 100%);
+}
+.postItem h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-block-end: 0;
+}
+
+h3{
+margin-block-end: 0;
+}
+
+.nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #6148c1;
+}
+.tox .tox-statusbar {
+    display: none!important;
+}
+
+.tox-tinymce {
+    border-radius: 20px!important;
+}
+.Profile.block .avatar {
+    background: linear-gradient(166deg, rgb(245 223 173) 0%, rgb(240 71 57) 46%, rgb(123 110 119) 100%);
+    overflow: hidden;
+    border: none !important;
+    padding: 6px;
+}
+.Profile.block .avatar img{
+    border-radius: 50%;
+}
+div:has(#list-1){
+backdrop-filter: blur(15px);
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+background-color: #65656526;
+border-radius: 20px;
+}
+
+.bgrow:has(#list-1){
+padding:0px!important;
+}
+.bgrow:has(#list-1) p{
+margin: 0;
+}
+.bgrow:has(#list-1) h4{
+margin-top: 0;
+margin-bottom: 20px;
+}
+.command-teamcast {
+background-color: #00000078;
+border-radius: 15px;
+backdrop-filter: blur(15px);
+}
